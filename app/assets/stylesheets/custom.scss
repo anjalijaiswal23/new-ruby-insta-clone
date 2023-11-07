@@ -47,7 +47,7 @@ html {
   .facebook {
     max-width: 1rem;
     height: auto;
-    margin-right: .5rem
+    margin-right: .5rem;
   }
 
 
@@ -55,3 +55,10 @@ html {
   width: 0;
 }
 
+.filepond--item {
+  width: calc(50% - 0.5em);
+}
+
+.filepond--root {
+  max-height: 20em;
+}
